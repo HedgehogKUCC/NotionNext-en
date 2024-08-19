@@ -32,6 +32,7 @@ const Gitalk = ({ frontMatter }) => {
       repo: repo,
       owner: owner,
       admin: admin,
+      language: "en",
       id: frontMatter.id, // Ensure uniqueness and length less than 50
       distractionFreeMode: distractionFreeMode // Facebook-like distraction free mode
     })
